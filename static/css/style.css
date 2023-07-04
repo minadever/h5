@@ -51,11 +51,11 @@ img {
 .web {
     width: 100%;
     margin: 0px auto 0px auto;
-		padding: 0.3rem 0.15rem;
+    padding: 0.2rem 0.15rem;
     height: auto;
     overflow: hidden;
     background: white;
-		font-size: 0.16rem;
+    font-size: 0.16rem;
 }
 
 .web>.title {
@@ -266,3 +266,14 @@ img {
 	background-color: #6c757d;
 }
 
+
+.facebook-iframe {
+	width: 100%;
+	height: 2rem;
+	max-height: 2.49rem;
+}
+
+#instagram {
+	display: flex;
+	justify-content: center;
+}
