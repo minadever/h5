@@ -11,8 +11,14 @@ body {
 
 iframe {
 	width: 100% !important;
+	min-width: 3.4rem !important;
+	max-width: 3.4rem !important;
 }
-
+blockquote {
+	width: 100% !important;
+	min-width: 3.4rem !important;
+	max-width: 3.4rem !important;
+}
 a {
 	color: inherit;
 	text-decoration: none;
@@ -154,8 +160,8 @@ img {
 }
 
 .guild .line-button {
-	height: 11.5vw;
-	line-height: 11.5vw;
+	height: 0.4rem;
+	line-height: 0.4rem;
 	padding: 0 0.15rem 3px;
 	background-image: url(../image/line-button.png);
 	background-size: 100% 100%;
@@ -304,6 +310,18 @@ img {
 .facebook-iframe {
 	/* height: 2rem; */
 	/* max-height: 2.49rem; */
+}
+#facebook {
+	display: flex;
+	justify-content: center;
+}
+#tiktok {
+	display: flex;
+	justify-content: center;
+}
+#youtube {
+	display: flex;
+	justify-content: center;
 }
 
 #instagram {
