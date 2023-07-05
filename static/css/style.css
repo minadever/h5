@@ -1,27 +1,30 @@
 html {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-    font-family: Verdana, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
-    margin: 0 auto;
-		background-color: #efefef;
+	font-family: Verdana, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+	margin: 0 auto;
+	background-color: #efefef;
 }
 
 iframe {
-	width: 100%!important;
+	width: 100% !important;
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
-		cursor: pointer;
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
 }
 
-ul, li, h3, h4 {
-		padding: 0;
-		margin: 0;
+ul,
+li,
+h3,
+h4 {
+	padding: 0;
+	margin: 0;
 }
 
 div {
@@ -29,8 +32,9 @@ div {
 }
 
 img {
-    vertical-align: middle;
+	vertical-align: middle;
 }
+
 .video {
 	width: 100%;
 }
@@ -49,57 +53,60 @@ img {
 }
 
 .web {
-    width: 100%;
-    margin: 0px auto 0px auto;
-    padding: 0.2rem 0.15rem;
-    height: auto;
-    overflow: hidden;
-    background: white;
-    font-size: 0.16rem;
+	width: 100%;
+	margin: 0px auto 0px auto;
+	padding: 0.2rem 0.15rem;
+	height: auto;
+	overflow: hidden;
+	background: white;
+	font-size: 0.16rem;
 }
 
 .web>.title {
-    width: 95%;
-    line-height: 1.8;
-    font-weight: 600;
-		text-align: center;
+	width: 95%;
+	line-height: 1.8;
+	font-weight: 600;
+	text-align: center;
 }
 
 .content {
-    width: 100%;
-    margin: 0 auto;
-    height: auto;
-    overflow: hidden;
-    margin-top: 0.15rem;
-    font-size: 0.16rem;
+	width: 100%;
+	margin: 0 auto;
+	height: auto;
+	overflow: hidden;
+	margin-top: 0.15rem;
+	font-size: 0.16rem;
 }
 
 .content p {
-    padding: 0.1rem 0;
-    margin: 0 !important;
-		text-indent: 0.25rem;
-		line-height: 1.5;
+	padding: 0.1rem 0;
+	margin: 0 !important;
+	text-indent: 0.25rem;
+	line-height: 1.5;
 }
 
 .web ul {
-		padding: 0.1rem 0;
-		text-indent: 0.25rem;
-    list-style: none !important;
+	padding: 0.1rem 0;
+	text-indent: 0.25rem;
+	list-style: none !important;
 }
+
 .web ul li {
-		line-height: 1.5;
+	padding: 0.08rem 0;
+	line-height: 1.2;
 }
 
 .web img {
-    width: 100%;
-    max-width: 100%;
-		margin: 0.1rem 0;
+	width: 100%;
+	max-width: 100%;
+	margin: 0.1rem 0;
 }
 
 .web h3 {
 	margin-top: 0.05rem;
 	padding: 0.05rem 0;
 }
+
 .web h3.section-title {
 	margin-top: 0.3rem;
 	margin-bottom: 0.05rem;
@@ -108,6 +115,7 @@ img {
 	border-left: 0.03rem solid #13bb2a;
 	background: linear-gradient(to right, #f3fbf0 98%, transparent);
 }
+
 .web h4 {
 	margin: 0.08rem 0 0;
 	text-align: center;
@@ -118,60 +126,74 @@ img {
 }
 
 .guild {
-    position: fixed;
-    bottom: 0;
-		left: 50%;
-		transform: translateX(-50%);
-		width: 100%;
-		padding: 0.1rem;
-		box-sizing: border-box;
-    background-color: #fff;
-		border-radius: 0.15rem 0.15rem 0 0;
-		text-align: center;
-		box-shadow: 0 0 10px 1px #ececec;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	padding: 0.1rem;
+	box-sizing: border-box;
+	background-color: #fff;
+	border-radius: 0.15rem 0.15rem 0 0;
+	text-align: center;
+	box-shadow: 0 0 10px 1px #ececec;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .guild>.title {
-    text-align: center;
-    font-size: 0.14rem;
-    color: #018067;
-    background-color: #fff;
+	text-align: center;
+	font-size: 0.14rem;
+	color: #018067;
+	background-color: #fff;
 }
 
 .guild .button {
-		margin: 0.1rem auto 0.05rem;
-    width: 52%;
-		font-size: 0;
+	margin: 0.1rem auto 0.05rem;
 }
 
+.guild .line-button {
+	height: 11.5vw;
+	line-height: 11.5vw;
+	padding: 0 0.15rem 3px;
+	background-image: url(../image/line-button.png);
+	background-size: 100% 100%;
+	font-size: 0.16rem;
+	color: #fff;
+	font-weight: bold;
+}
+
+
 .guild img {
-    width: 100%;
+	width: 100%;
 }
 
 
 .open-page {
-    cursor: pointer;
+	cursor: pointer;
 }
 
+
 .padding-el {
-    width: 100%;
-    color: #666;
-    text-align: center;
-    font-size: 0.14rem;
-    background: #fff;
-    padding-top: 0.96rem;
+	width: 100%;
+	color: #666;
+	text-align: center;
+	font-size: 0.14rem;
+	background: #fff;
+	padding-top: 0.96rem;
 }
 
 .content data[data-w-e-type="video"] {
-    width: 100%;
-    margin: 0 auto;
+	width: 100%;
+	margin: 0 auto;
 }
 
 .content div[data-w-e-type="video"] video {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
 }
 
 
@@ -186,6 +208,7 @@ img {
 	justify-content: center;
 	align-items: center;
 }
+
 .alert-wrap .alert-bg {
 	position: fixed;
 	top: 0;
@@ -196,6 +219,7 @@ img {
 	background-color: #333;
 	opacity: .5;
 }
+
 .alert-wrap .alert {
 	position: relative;
 	width: 80vw;
@@ -216,6 +240,7 @@ img {
 	right: 0.1rem;
 	font-size: 0.22rem;
 }
+
 .alert-wrap .alert .alert-title {
 	font-size: 0.16rem;
 	font-weight: bold;
@@ -225,6 +250,7 @@ img {
 	margin-top: 0.2rem;
 	font-size: 0.14rem;
 }
+
 .alert-wrap .alert .alert-input {
 	margin-top: 0.2rem;
 	width: 90%;
@@ -232,15 +258,18 @@ img {
 	border-radius: 0.05rem;
 	border: 1px solid #ececec;
 }
+
 .alert-wrap .alert .alert-input.error {
 	border-color: #dc3545;
 	box-shadow: 0 0 1px 1px #dc3545;
 }
+
 .alert-wrap .alert .alert-input:focus {
 	border-color: #007bff;
 	box-shadow: 0 0 1px 1px #007bff;
 	outline: none;
 }
+
 .alert-wrap .alert .alert-input::placeholder {
 	fofont-size: 0.12rem;
 	color: #999;
@@ -251,6 +280,7 @@ img {
 	display: flex;
 	justify-content: flex-end;
 }
+
 .alert-wrap .alert .alert-button {
 	padding: 0.06rem 0.15rem;
 	border-radius: 0.03rem;
@@ -260,9 +290,11 @@ img {
 	color: #fff;
 	font-size: 0.14rem;
 }
+
 .alert-wrap .alert .alert-button:not(:first-child) {
 	margin-left: 0.08rem;
 }
+
 .alert-wrap .alert .alert-button.alert-button-cancel {
 	background-color: #6c757d;
 }
@@ -283,4 +315,3 @@ img {
 	display: flex;
 	justify-content: center;
 }
-
