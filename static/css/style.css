@@ -302,8 +302,8 @@ img {
 
 
 .facebook-iframe {
-	height: 2rem;
-	max-height: 2.49rem;
+	/* height: 2rem; */
+	/* max-height: 2.49rem; */
 }
 
 #instagram {
