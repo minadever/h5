@@ -10,7 +10,7 @@ body {
 }
 
 iframe {
-	width: 100%;
+	width: 100%!important;
 }
 
 a {
@@ -199,6 +199,7 @@ img {
 .alert-wrap .alert {
 	position: relative;
 	width: 80vw;
+	max-width: 4rem;
 	padding: 0.2rem;
 	background-color: #fff;
 	border-radius: 0.05rem;
@@ -267,8 +268,8 @@ img {
 }
 
 
+
 .facebook-iframe {
-	width: 100%;
 	height: 2rem;
 	max-height: 2.49rem;
 }
@@ -277,3 +278,9 @@ img {
 	display: flex;
 	justify-content: center;
 }
+
+#twitter {
+	display: flex;
+	justify-content: center;
+}
+
